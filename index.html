@@ -1,0 +1,1603 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Meta(s) -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Embed Meta -->
+  <!-- Primary Meta Tags -->
+  <meta name="title" content="kusangers" />
+  <meta name="description" content="learn bootstraps with kusang." />
+    
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://magang.webby.digital/wildan/learn-bootstrap/" />
+  <meta property="og:title" content="kusangers" />
+  <meta property="og:description" content="learn bootstraps with kusang." />
+  <meta property="og:image" content="https://cdn.kumacdn.club/wp-content/uploads/images/test-bro//embed.gif" />
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image" />
+  <meta property="twitter:url" content="https://magang.webby.digital/wildan/learn-bootstrap/" />
+  <meta property="twitter:title" content="kusangers" />
+  <meta property="twitter:description" content="learn bootstraps with kusang." />
+  <meta property="twitter:image" content="https://cdn.kumacdn.club/wp-content/uploads/images/test-bro//embed.gif" />
+
+  <!-- Title -->
+  <title>kusangers</title>
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    
+  <!-- Jquery -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- JavaScript -->
+  <link rel="stylesheet" href="./assets/js/snippets.js">
+
+  <!-- Favicon -->
+  <link rel="icon" href="./assets/image/iconweb.webp">
+
+</head>
+<body style="background: #111111; color:white;">
+    
+  <div class="preloader" >
+    <div class="loading" >
+        <img src="./assets/image/load-icon.gif" alt="load icon">
+    </div>
+</div>
+
+
+
+<!-- navbar -->
+ 
+<nav class="navbar position-fixed fixed-top w-100 navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid" style="padding: 10px 25px 10px 25px;">
+      <a class="navbar-brand" href="#" style="font-weight: bold; font-size: 20px;">Kusang
+          <img src="./assets/image/logo.gif" alt="Logo" width="30" height="30" class="d-inline-block align-text-top mx-2 rounded-5">
+      </a>
+      <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse" id="navbarScroll" >
+          <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+              <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Instalasi</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#collumn">Layout</a>
+              </li>
+              <li class="nav-item dropdown">
+                  <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Component</a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a href="#accordion" class="dropdown-item">Accordion</a></li>
+                      <li><a href="#alert" class="dropdown-item">Alert</a></li>
+                      <li><a href="#carousel" class="dropdown-item">Carousel</a></li>
+                      <li><a href="#card" class="dropdown-item">Card</a></li>
+                      <li><a href="#buttons" class="dropdown-item">Buttons</a></li>
+                      <li><a href="#modal" class="dropdown-item">Modal, Toast & Popover</a></li>
+                      <li><a href="#accordion" class="dropdown-item">Accordion</a></li>
+                      <li><a href="#color" class="dropdown-item">Color Scheme</a></li>
+                      <li><a href="#spy" class="dropdown-item">Spy Scroll</a></li>
+                      <li><a href="#form" class="dropdown-item">Form</a></li>
+                      <li><a href="#iframe" class="dropdown-item">Iframe</a></li>
+                      <li><a href="#spinner" class="dropdown-item">Spinner</a></li>
+                  </ul>
+              </li>
+          </ul>
+          <form class="my-2 my-lg-0">
+              <div class="dropdown">
+                  <input class="dropdown-toggle form-control" id="myInput" type="search" data-bs-toggle="dropdown" placeholder="Search" autocomplete="off" aria-expanded="false">
+                  <ul style="height: 300px; overflow-y: scroll;" class="dropdown-menu w-100 text-start">
+                      <div class="list-group" style="margin-top: -8px; margin-bottom: -8px;">
+                          <li><a href="#collumn" class="dropdown-item">Layout</a></li>
+                          <li><a href="#accordion" class="dropdown-item">Accordion</a></li>
+                          <li><a href="#alert" class="dropdown-item">Alert</a></li>
+                          <li><a href="#carousel" class="dropdown-item">Carousel</a></li>
+                          <li><a href="#card" class="dropdown-item">Card</a></li>
+                          <li><a href="#buttons" class="dropdown-item">Buttons</a></li>
+                          <li><a href="#modal" class="dropdown-item">Modal, Toast & Popover</a></li>
+                          <li><a href="#color" class="dropdown-item">Color Scheme</a></li>
+                          <li><a href="#spy" class="dropdown-item">Spy Scroll</a></li>
+                          <li><a href="#form" class="dropdown-item">Form</a></li>
+                          <li><a href="#iframe" class="dropdown-item">Iframe</a></li>
+                          <li><a href="#spinner" class="dropdown-item">Spinner</a></li>
+                      </div>
+                  </ul>
+              </div>
+          </form>
+      </div>
+  </div>
+</nav>
+
+
+<!-- navbar -ends  -->
+ 
+    <!-- hero/header -start -->
+     <header style="background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7))">
+         <section class="header bg-dark text-light text-center pt-5 p-5 py-5 ">
+          <div class="header-gradient"></div>
+             <div class="container">
+                <div class="d-flex align-items-center">
+                    <div>
+                        <h1> <span class="text-primary">Ayo </span>
+                             Belajar<span class="text-primary">
+                             Bootstrap !</span> </h1>
+                        <p class="lead">ini adalah contoh penggunaan "HERO" didalam website     </p>
+                        <a href="#collumn"><button class="btn btn-primary btn-lg">
+                       Belajar Sekarang !
+                        </button>
+                      </a>
+                    </div>
+
+                    <img class="img-fluid w-50 d-none d-sm-block"
+                    src="./assets/image/header-gambar.svg"
+                    alt="">
+                </div>
+            </div>         
+        </section>
+      </header>
+    <!-- hero/header -end -->
+
+
+<!-- collumn -starts -->
+ <section  class="collumn" id="collumn">
+    <h1 class="display-3 text-center col-12 py-2 tile text-center my-5" style="font-size: 50px; border:none;"> Column</h1>
+    <div class="container text-center ">
+      <div class="row ">
+        <div class="col my-2" style="border: 2px solid white; background: #2672e3;">
+        Column
+        </div>
+        <div class="col my-2 " style="border: 2px solid white; background: #6a207e;">
+        Ini Collumn
+        </div>
+        <div class="col my-2" style="border: 2px solid white; background: #2672e3;">
+        Column
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-1 my-2 " style="border: 2px solid white; background: #3b7de1;">
+        col-1
+        </div>
+        <div class="col-11 my-2" style="border: 2px solid white; background: #78318b;">
+        col-11
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-2 my-2 " style="border: 2px solid white; background: #5c92e2;">
+          col-2
+        </div>
+        <div class="col-10 my-2 " style="border: 2px solid white; background: #9d58b0;">
+          col-10
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-3 my-2 " style="border: 2px solid white; background: #6b9ae0;">
+          col-3
+        </div>
+        <div class="col-9 my-2 " style="border: 2px solid white; background: #ba77cc;">
+          col-9
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-4 my-2 " style="border: 2px solid white; background: #7299d4;">
+          col-4
+        </div>
+        <div class="col-8 my-2 " style="border: 2px solid white; background: #ce93de;">
+          col-8
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-5 my-2 " style="border: 2px solid white; background: #799dd3;">
+          col-5
+        </div>
+        <div class="col-7 my-2 " style="border: 2px solid white; background: #c996d7;">
+          col-7
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-6 my-2 " style="border: 2px solid white; background: #85a4d2;">
+          col-6
+        </div>
+        <div class="col-6 my-2" style="border: 2px solid white; background: #cfa4da;">
+          col-6
+        </div>
+      </div>
+    </div>
+  </div>
+ </section>
+<!-- collumn -end -->
+
+ 
+ <!-- layout collumn -starts -->
+  <section id="layout-collumn" class="layout-collum" id="layout-collumn ">
+    <h1 class="display-3 text-center col-12 py-2 tile text-center my-5" style="font-size: 50px; border:none;"> Layout Collumn</h1>
+    <div class="container text-center">
+      <div class="row mb-4 justify-content-start">
+        <div class="col-4 my-2 " style="border: 2px solid white; background: #2672e3;">
+          justify-content-start
+        </div>
+        <div class="col-4 my-2 " style="border: 2px solid white; background: #6a207e;">
+          One of two columns
+        </div>
+      </div>
+
+      <div class="row mb-4 justify-content-center ">
+        <div class="col-4 my-2 " style="border: 2px solid white; background: #3b7de1;">
+          justify-content-center
+        </div>
+        <div class="col-4 my-2" style="border: 2px solid white; background: #78318b;">
+          One of two columns
+        </div>
+      </div>
+
+      <div class="row mb-4 justify-content-end">
+        <div class="col-4 my-2 " style="border: 2px solid white; background: #5c92e2;">
+          justify-content-end
+        </div>
+        <div class="col-4 my-2 " style="border: 2px solid white; background: #9d58b0;">
+          One of two columns
+        </div>
+      </div>
+
+      <div class="row mb-4 justify-content-around ">
+        <div class="col-4 my-2 " style="border: 2px solid white; background: #6b9ae0;">
+          justify-content-around
+        </div>
+        <div class="col-4 my-2 " style="border: 2px solid white; background: #ba77cc;">
+          One of two columns
+        </div>
+      </div>
+
+      <div class="row mb-4 justify-content-between ">
+        <div class="col-4 my-2 " style="border: 2px solid white; background: #5c92e2;">
+          justify-content-between
+        </div>
+        <div class="col-4 my-2 " style="border: 2px solid white; background: #9d58b0;">
+          One of two columns
+        </div>
+      </div>
+
+      <div class="row row mb-5 justify-content-evenly ">
+        <div class="col-4 my-2 " style="border: 2px solid white; background: #3b7de1;">
+          justify-content-evenly
+        </div>
+        <div class="col-4 my-2 " style="border: 2px solid white; background: #78318b;">
+          One of two columns
+        </div>
+      </div>
+    </div>
+  </section> 
+
+  <!-- layout collums -end -->
+
+  <!-- Progress Bar - starts -->
+  <section class="column" id="progress-bar">
+    <h1 class="display-3 text-center col-12 py-2 tile text-center my-5" style="font-size: 50px; border:none;">Progress Bar & Placeholder</h1>
+    <div class="container text-center">
+      <div>
+        <div class="progress mb-3">
+          <div class="progress-bar mb-5" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+        <div class="progress mb-3">
+          <div class="progress-bar bg-info text-dark" aria-valuenow="25" style="width: 25%;" aria-valuemin="0" aria-valuemax="100">25%</div>
+        </div>
+        <div class="progress mb-3">
+          <div class="progress-bar" aria-valuenow="50" style="width: 50%;" aria-valuemin="0" aria-valuemax="100">50%</div>
+        </div>
+        <div class="progress mb-3">
+          <div class="progress-bar bg-info text-dark progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;">75%</div>
+        </div>
+        <p class="placeholder-glow mb-3">
+          <span class="placeholder col-12"></span>
+        </p>
+        <p class="placeholder-wave mb-3">
+          <span class="placeholder col-12"></span>
+          </p>
+          <span class="placeholder  mb-3 col-12"></span>
+          <span class="placeholder  mb-3 col-12 bg-primary"></span>
+          <span class="placeholder  mb-3 col-12 bg-secondary"></span>
+          <span class="placeholder  mb-3 col-12 bg-success"></span>
+          <span class="placeholder  mb-3 col-12 bg-danger"></span>
+          <span class="placeholder mb-3  col-12 bg-warning"></span>
+          <span class="placeholder mb-3  col-12 bg-info"></span>
+          <span class="placeholder mb-3 col-12 bg-light"></span>
+          <span class="placeholder mb-3  col-12 bg-dark"></span>
+      </div>
+    </div>
+  </section>
+  <!-- Progress Bar - end -->
+
+   
+  <!-- accordion -starts -->
+  <section id="accordion" class="accordion"   >
+    <h1 class="display-3 text-center col-12 py-2 tile text-center my-5" style="font-size: 50px; border:none;">Accordion</h1>
+    <div class="container text-center">
+      <div class="col justify-content-center d-flex align-items-center">
+        <div class="accordion w-50" id="accordionFlushExample" data-bs-theme="dark">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                Accordion-default 1
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse hide" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Accordion-default 2
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse hide" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Accordion-default 3
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse hide" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <h1 class="display-3 text-center col-12 py-2 tile text-center my-5" style="font-size: 50px; border:none;"> Accordion</h1>
+      <div class="container text-center">
+        <div>
+        <div class="col justify-content-center d-flex align-items-center">
+          <div class="accordion  w-50" id="accordionFlushExample" data-bs-theme="dark">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                  Accordion Item #1
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+              </div>
+            </div>
+            
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                  Accordion Item #2
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                  Accordion Item #3
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- accordion -end -->
+   
+  <!-- alert -starts -->
+  <section id="alert" class="alert" id="alert" >
+    <h1 class="display-3 text-center col-12 py-2 tile text-center my-5" style="font-size: 50px; border:none;"> Alert</h1>
+    <div class="container text-center">
+
+      <div id="liveAlertPlaceholder" class="text-center">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+      <button type="button" class="btn btn-success mb-2 " id="liveAlertBtn">Click Me</button>
+
+      <div class="alert alert-primary my-2" role="alert">
+        A simple primary alert with <a href="#accordion" class="alert-link">an example link</a>. Give it a click if you like.
+      </div>
+      <div class="alert alert-secondary my-2 " role="alert">
+        A simple secondary alert with <a href="#accordion" class="alert-link">an example link</a>. Give it a click if you like.
+      </div>
+      <div class="alert alert-success my-2 " role="alert">
+        A simple success alert with <a href="#accordion" class="alert-link">an example link</a>. Give it a click if you like.
+      </div>
+      <div class="alert alert-danger my-2 " role="alert">
+        A simple danger alert with <a href="#accordion" class="alert-link">an example link</a>. Give it a click if you like.
+      </div>
+      <div class="alert alert-warning my-2 " role="alert">
+        A simple warning alert with <a href="#accordion" class="alert-link">an example link</a>. Give it a click if you like.
+      </div>
+      <div class="alert alert-info my-2 " role="alert">
+        A simple info alert with <a href="#accordion" class="alert-link">an example link</a>. Give it a click if you like.
+      </div>
+      <div class="alert alert-light my-2 " role="alert">
+        A simple light alert with <a href="#accordion" class="alert-link">an example link</a>. Give it a click if you like.
+      </div>
+      <div class="alert alert-dark my-2 " role="alert">
+        A simple dark alert with <a href="#accordion" class="alert-link">an example link</a>. Give it a click if you like.
+      </div>
+    </div>
+  </section>  
+<!-- allert -end -->
+
+ 
+  <!-- carousel start -->
+  <section id="carousel" class="carousel">
+    <h1 class="display-3 text-center my-5" style="font-size: 50px; border:none;">Carousel</h1>
+    <div class="container text-center">
+        <div class="row justify-content-center">
+          <!-- first carousel -->
+            <div class="col-lg-4 px-5 mb-5 pt-5 mt-5">
+                <div id="carouselExampleCaptions" class="carousel slide">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="5000">
+                            <img src="https://cdn.discordapp.com/attachments/906608326274609152/1265531179302387802/kucing-carousel-1.jpg?ex=66a1d941&is=66a087c1&hm=a33b110b158aa3c653ad6b87c994cd639adfd3e4754a6b016e68a8756739f665&" class="d-block w-100 carousel-image" alt="...">
+                            <div class="carousel-caption d-none d-md-block ">
+                                <h5>First slide label</h5>
+                                <p>Some representative placeholder content for the first slide.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="5000">
+                            <img src="https://cdn.discordapp.com/attachments/906608326274609152/1265531179776479292/kucing-carousel-2.gif?ex=66a1d941&is=66a087c1&hm=c672d3ac81bde4ae48c9fdb155e790c48cafadc7d96eebd53b265484aed7f1ba&" class="d-block w-100 carousel-image" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Second slide label</h5>
+                                <p>Some representative placeholder content for the second slide.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="5000">
+                            <img src="https://cdn.discordapp.com/attachments/906608326274609152/1265531180329992214/kucing-carousel-3.jpg?ex=66a1d941&is=66a087c1&hm=599ee1bc7e5cd185db7ffee6cddb64febbb257419f3775c6b3b41ab1e6156ce8&" class="d-block w-100 carousel-image" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Third slide label</h5>
+                                <p>Some representative placeholder content for the third slide.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+          <!-- second carousel -->
+            <div class="col-lg-4 px-5 mb-5 pt-5 mt-5">
+                <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="2000">
+                        <img src="https://cdn.discordapp.com/attachments/906608326274609152/1265531181059936298/kucing-carousel-4.jpg?ex=66a1d941&is=66a087c1&hm=347bead8ef128899d90ef81cd209688d9b90351a6f8892776d6375e0a71cb4ff&" class="d-block w-100 carousel-image" alt="...">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="https://cdn.discordapp.com/attachments/906608326274609152/1265531181458260059/kucing-carousel-5.jpg?ex=66a1d942&is=66a087c2&hm=c23dd1542e9bbe8c715f570d8f72a40051a4f3c9d81714ae7e8a487936904fd2&" class="d-block w-100 carousel-image" alt="...">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="5000">
+                        <img src="https://cdn.discordapp.com/attachments/906608326274609152/1265531181886210118/kucing-carousel-6.gif?ex=66a1d942&is=66a087c2&hm=ab6d44c35ad9b39de38e2843ba7830e1153a42df29b547ff304feceaf07591b7&" class="d-block w-100 carousel-image" alt="...">
+                    </div>  
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+            </div>
+          <!-- third carousel -->
+          <div class="col-lg-4 px-5 mb-5 pt-5 mt-5">
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="2000">
+                  <img src="https://cdn.discordapp.com/attachments/906608326274609152/1265531182318092358/kucing-carousel-7.jpg?ex=66a1d942&is=66a087c2&hm=24e3001a1b54e79c986351d072d79f8dab20bd0baf7d60716a4bdaa662eb394f&" class="d-block w-100 carousel-image" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                  <img src="https://cdn.discordapp.com/attachments/906608326274609152/1265531183010283604/kucing-carousel-8.jpg?ex=66a1d942&is=66a087c2&hm=230b8c3415fb17bbcaba06002c0138b2adecf30bbf0303cdacd914ddfe75ab70&" class="d-block w-100 carousel-image" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                  <img src="https://cdn.discordapp.com/attachments/906608326274609152/1265531628781043723/kucing-carousel-9.jpg?ex=66a1d9ac&is=66a0882c&hm=5f0222e2901858953101c850c48c83d6328e3478f5a878c504a56830f15c172f&" class="d-block w-100 carousel-image" alt="...">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+  </section>
+  <!-- carousel -ends -->
+
+  <!-- card starts -->
+  <section id="card" class="kartu">
+    <div class="container-xxl">
+      <h1 class="display-3 text-center my-5" style="font-size: 50px; border:none;">Card</h1>
+
+      <!-- Album Container -->
+      <div class="album">
+        <div class="container">
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+            <!-- First Card -->
+            <div class="col-12 col-sm-6 col-md-4">
+              <div class="card shadow-lg">
+                <img src="./assets/image/card-1.png" class="card-img" alt="Card 1">
+                <div class="card-body text-black">
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                    </div>
+                    <small class="text-muted">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Second Card -->
+            <div class="col-12 col-sm-6 col-md-4">
+              <div class="card shadow-lg">
+                <img src="./assets/image/card-2.gif" class="card-img" alt="Card 2">
+                <div class="card-body bg-dark text-light">
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                    </div>
+                    <small class="text-muted">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Third Card -->
+            <div class="col-12 col-sm-6 col-md-4">
+              <div class="card shadow-lg">
+                <img src="./assets/image/card-3.png" class="card-img" alt="Card 3">
+                <div class="card-body bg-light text-dark">
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <a href="#card" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Fourth Card -->
+            <div class="col-12 col-sm-6 col-md-4">
+              <div class="card shadow-lg" data-bs-theme="dark">
+                <img src="./assets/image/card-3.png" class="card-img" alt="Card 4">
+                <div class="card-body">
+                  <h5 class="card-title">This is Title</h5>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Item 1</li>
+                    <li class="list-group-item">Item 2</li>
+                    <li class="list-group-item">Item 3</li>
+                  </ul>
+                  <a href="#card" class="btn btn-primary">Read More</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Fifth Card -->
+            <div class="col-12 col-sm-6 col-md-4" data-bs-theme="dark">
+              <div class="card shadow-lg">
+                <img src="./assets/image/card-1.png" class="card-img" alt="Card 5">
+                <div class="card-body bg-dark text-light">
+                  <h5 class="card-title">This is Title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <ul class="list-group list-group-flush bg-dark text-light">
+                    <li class="list-group-item">Item 1</li>
+                    <li class="list-group-item">Item 2</li>
+                    <li class="list-group-item">Item 3</li>
+                  </ul>
+                  <a href="#card" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Sixth Card -->
+            <div class="col-12 col-sm-6 col-md-4" data-bs-theme="dark">
+              <div class="card shadow-lg">
+                <img src="./assets/image/card-2.gif" class="card-img" style="filter: blur(5px);" alt="Card 6">
+                <div class="card-img-overlay text-black">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text"><small>Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Seventh Card -->
+            <div class="col-12 col-sm-6 col-md-4" data-bs-theme="dark">
+              <div class="card shadow-lg">
+                <div class="card-body bg-dark text-light">
+                  <h5 class="card-title">This is Title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+                <img src="./assets/image/card-2.gif" class="card-img" alt="Card 7">
+              </div>
+            </div>
+
+            <!-- Eighth Card -->
+            <div class="col-12 col-sm-6 col-md-4" data-bs-theme="dark">
+              <div class="card shadow-lg">
+                <img src="./assets/image/card-1.png" class="card-img" style="clip-path: circle(); background-position: center; background-size: cover;" alt="Card 8">
+                <div class="card-body bg-dark text-light">
+                  <h5 class="card-title">This is Title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Eighth-2 Card -->
+            <div class="col-12 col-sm-6 col-md-4" data-bs-theme="dark">
+              <div class="card shadow-lg">
+                <img src="./assets/image/card-3.png" class="card-img" alt="Card 9">
+                <div class="card-body bg-dark text-light">
+                  <h5 class="card-title">This is Title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <div class="border-top text-black text-black-50">
+                    <a href="#" class="btn btn-link btn-block text-decoration-none">Read More</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4">
+              <div class="card text-bg-success mb-3"  >
+                <div class="card-header">Header</div>
+                <div class="card-body">
+                  <h5 class="card-title">Success card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+            </div>
+            <!-- Twelfth Card -->
+            <div class="col-12 col-sm-6 col-md-4">
+              <div class="card text-bg-danger mb-3"  >
+                <div class="card-header">Header</div>
+                <div class="card-body">
+                  <h5 class="card-title">Danger card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+            </div>
+            <!-- Thirteenth Card -->
+            <div class="col-12 col-sm-6 col-md-4">
+              <div class="card text-bg-warning mb-3"  >
+                <div class="card-header text-light">Header</div>
+                <div class="card-body">
+                  <h5 class="card-title ">Warning card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+            </div>
+            <!-- Fourteenth Card -->
+            <div class="col-12 col-sm-6 col-md-4">
+              <div class="card text-bg-info mb-3"  >
+                <div class="card-header ">Header</div>
+                <div class="card-body">
+                  <h5 class="card-title">Info card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+            </div>
+            <!-- Fifteenth Card -->
+            <div class="col-12 col-sm-6 col-md-4">
+              <div class="card text-bg-dark mb-3"  >
+                <div class="card-header">Header</div>
+                <div class="card-body">
+                  <h5 class="card-title">Dark card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+            </div>
+            <!-- Sixteenth Card -->
+            <div class="col-12 col-sm-6 col-md-4">
+              <div class="card text-bg-light mb-3">
+                <div class="card-header">Header</div>
+                <div class="card-body">
+                  <h5 class="card-title">Light card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+            </div>
+            <!-- Seventeenth Card -->
+            <div class="col-12 col-sm-6 col-md-4">
+              <div class="card border-primary bg-dark mb-3"  >
+                <div class="card-header text-light">Header</div>
+                <div class="card-body bg-dark text-danger">
+                  <h5 class="card-title">Danger card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+            </div>
+            <!-- Eighteenth Card -->
+            <div class="col-12 col-sm-6 col-md-4">
+              <div class="card border-warning bg-dark mb-3"  >
+                <div class="card-header text-light ">Header</div>
+                <div class="card-body bg-dark text-warning">
+                  <h5 class="card-title">Warning card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+            </div>
+            <!-- Nineteenth Card -->
+            <div class="col-12 col-sm-6 col-md-4">
+              <div class="card border-success bg-dark mb-3"  >
+                <div class="card-header text-light ">Header</div>
+                <div class="card-body bg-dark text-success">
+                  <h5 class="card-title">Success card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+            </div>
+            <!-- Mixing Utils 1 -->
+            <div class="col-12 col-sm-6 col-md-4 text-center" data-bs-theme="dark">
+              <div class="card border-success shadow-lg">
+                <div class="card-header bg-transparent border-success">New title</div>
+                <div class="card-body text-success">
+                  <h5 class="card-title">Success card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+                <div class="card-footer bg-transparent border-success">
+                  <p class="card-text"><small>Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Mixing Utils 2 -->
+            <div class="col-12 col-sm-6 col-md-4 text-center" data-bs-theme="dark">
+              <div class="card border-info shadow-lg">
+                <div class="card-header">
+                  <ul class="nav nav-tabs card-header-tabs">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="true" href="#">Active</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link disabled">Disabled</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Special title treatment</h5>
+                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                  <ul class="social list-inline">
+                    <li class="list-inline-item">
+                      <a href="#" class="text-info"><i class="bi bi-facebook"></i></a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a href="#" class="text-info"><i class="bi bi-twitter"></i></a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a href="#" class="text-info"><i class="bi bi-instagram"></i></a>
+                    </li>
+                  </ul>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+          
+            <div class="col-12 col-sm-6 col-md-4 text-center" data-bs-theme="dark">
+              <div class="card border-success  shadow-lg">
+                <div class="card-header bg-transparent border-success">New title</div>
+                <div class="card-body text-success">
+                  <h5 class="card-title">Success card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  </div>
+                  <div class="card-footer bg-transparent border-success">
+                    <p class="card-text"><small>Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+              </div>
+              
+            </div><div class="container mt-4">
+              <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 g-2">
+                <!-- First Card -->
+                <div class="col">
+                  <div class="card bg-dark mb-3" style="max-width: 700px;">
+                    <div class="row g-2">
+                      <div class="col-md-4">
+                        <img src="./assets/image/card-4.png" class="img-fluid rounded-start" alt="Card 4">
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body bg-dark text-light">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Second Card -->
+                <div class="col">
+                  <div class="card bg-dark mb-3" style="max-width: 700px;">
+                    <div class="row g-2">
+                      <div class="col-md-4">
+                        <img src="./assets/image/card-5.png" class="img-fluid rounded-start" alt="Card 5">
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body bg-dark text-light">
+                          <h5 class="card-title placeholder-glow">
+                            <span class="placeholder col-6"></span>
+                          </h5>
+                          <p class="card-text placeholder-glow">
+                            <span class="placeholder col-10"></span>
+                            <span class="placeholder col-2"></span>
+                            <span class="placeholder col-5"></span>
+                            <span class="placeholder col-10"></span>
+                            <span class="placeholder col-2"></span>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- card -ends -->
+   
+
+  <!-- Buttons Section -->
+  <!-- Buttons Section -->
+  <section id="buttons" class="collumn">
+    <h1 class="display-3 text-center col-12 py-2 tile text-center my-5" style="font-size: 50px; border:none;">
+      Buttons
+    </h1>
+    <div class="container text-center">
+      <div class="row d-flex justify-content-center align-items-center gap-2">
+        
+        <!-- Button Group 1 -->
+        <div class="col-2 justify-content-center m-5 d-flex align-items-center text-dark gap-1" style="border: none;">
+          <button type="button" class="btn btn-primary">Normal</button>
+          <button type="button" class="btn btn-primary" disabled>Disabled</button>
+        </div>
+
+        <div class="col-2 justify-content-center m-5 d-flex align-items-center text-dark gap-1" style="border: none;">
+          <button type="button" class="btn btn-outline-primary">Outline</button>
+          <button type="button" class="btn btn-outline-primary" disabled>Outline</button>
+        </div>
+
+        <div class="col-2 justify-content-center m-5 d-flex align-items-center text-dark gap-1" style="border: none;">
+          <button type="button" class="btn btn-primary btn-lg">Large</button>
+          <button type="button" class="btn btn-primary btn-lg" disabled>Large</button>
+        </div>
+
+        <div class="col-2 justify-content-center m-5 d-flex align-items-center text-dark gap-1" style="border: none;">
+          <button type="button" class="btn btn-outline-primary btn-sm">Small</button>
+          <button type="button" class="btn btn-outline-primary btn-sm" disabled>Small</button>
+        </div>
+
+        <!-- Button Group 2 -->
+        <div class="col-2 justify-content-center m-5 d-flex align-items-center text-dark gap-1" style="border: none;">
+          <button class="btn btn-primary" type="button" disabled="">
+            <span class="spinner-grow spinner-grow-sm" role="status" aria-hidden="true"></span>
+            <span class="visually-hidden">Loading...</span>
+          </button>
+          <button class="btn btn-primary" type="button" disabled="">
+            <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+            Loading...
+          </button>
+        </div>
+
+        <div class="col-2 justify-content-center m-5 d-flex align-items-center text-dark gap-1" style="border: none;">
+          <div class="btn-group" role="group" aria-label="Basic checkbox toggle button group">
+            <input type="checkbox" class="btn-check" id="button-check1" autocomplete="off">
+            <label class="btn btn-outline-primary" for="button-check1">Active</label>
+            <input type="checkbox" class="btn-check" id="button-check2" autocomplete="off">
+            <label class="btn btn-outline-primary" for="button-check2">Toggle</label>
+            <input type="checkbox" class="btn-check" id="button-check3" autocomplete="off">
+            <label class="btn btn-outline-primary" for="button-check3">Button</label>
+          </div>
+        </div>
+
+        <div class="col-2 justify-content-center m-5 d-flex align-items-center text-dark gap-1" style="border: none;">
+          <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+            <button type="button" class="btn btn-primary">1</button>
+            <button type="button" class="btn btn-primary">2</button>
+            <div class="btn-group" role="group">
+              <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                Dropdown
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">To the top?</a></li>
+                <li><a class="dropdown-item" href="#modal">Next!</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-2 justify-content-center m-5 d-flex align-items-center text-dark gap-1" style="border: none;">
+          <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+            <input type="radio" class="btn-check" name="button-radio" id="button-radio10" autocomplete="off" checked="">
+            <label class="btn btn-outline-primary" for="button-radio10">Active</label>
+            <input type="radio" class="btn-check" name="button-radio" id="button-radio20" autocomplete="off">
+            <label class="btn btn-outline-primary" for="button-radio20">Toggle</label>
+            <input type="radio" class="btn-check" name="button-radio" id="button-radio30" autocomplete="off">
+            <label class="btn btn-outline-primary" for="button-radio30">Link</label>
+          </div>
+        </div>
+        <!-- Button Group 3 -->
+        <div class="col-2 justify-content-center m-5 d-flex align-items-center text-dark gap-1" style="border: none;">
+          <button type="button" class="btn btn-outline-primary position-relative">
+            <img src="https://cdn.discordapp.com/emojis/924424964805902357.png?size=96&quality=lossless" alt="">
+            </span>
+            </button>
+          <button type="button" class="btn btn-outline-primary position-relative">
+            <img src="https://cdn.discordapp.com/emojis/924424964805902357.gif?size=96&quality=lossless" alt="">
+            <span class="position-absolute top-0 start-100 translate-middle p-2 bg-danger border border-light rounded-circle">
+            <span class="visually-hidden">New alerts</span>
+            </span>
+          </button>
+          <button type="button" class="btn btn-outline-primary position-relative">
+            <img src="https://cdn.discordapp.com/emojis/924424964805902357.gif?size=96&quality=lossless" alt="">
+          <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+            99+
+          </span><span class="visually-hidden">New alerts</span>
+        </span>
+      </button>
+           
+        </div>
+
+        <div class="col-2 justify-content-center m-5 d-flex align-items-center text-dark gap-1" style="border: none;">
+          <div class="btn-group" role="group" aria-label="Basic checkbox toggle button group">
+            <input type="checkbox" class="btn-check" id="button-check12" autocomplete="off">
+            <label class="btn btn-outline-primary" for="button-check12"><span class="badge top-0  bg-primary badge-pill">10</label></span>
+            
+            <input type="checkbox" class="btn-check" id="button-check22" autocomplete="off">
+            <label class="btn btn-outline-primary" for="button-check22"><span class="badge top-0  bg-danger badge-pill">10</label></span>
+            <input type="checkbox" class="btn-check" id="button-check32" autocomplete="off">
+            <label class="btn btn-outline-primary" for="button-check32"><span class="badge top-0  bg-warning badge-pill">10</label></span>
+          </div>
+        </div>
+
+        <div class="col-2 justify-content-center m-5 d-flex align-items-center text-dark gap-1" style="border: none;">
+          <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#canvas1"  aria-controls="offcanvasExample">
+            off
+            </a>
+            <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#canvas2"  aria-controls="offcanvasExample">
+            canvas
+            </button>
+
+            <div class="offcanvas offcanvas-start text-bg-dark" tabindex="-1" id="canvas1" aria-labelledby="offcanvasExampleLabel">
+              <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+                <div>
+                  Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists, etc.
+                </div>
+              </div>
+            </div>
+
+            <div class="offcanvas offcanvas-bottom bg-dark text-light " tabindex="-1" id="canvas2" aria-labelledby="offcanvasExampleLabel" aria-modal="true" role="dialog">
+              <div class="offcanvas-header">
+                <h5 class="offcanvas-title text-center" id="offcanvasExampleLabel"> Ini Judul</h5>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="close"></button>
+              </div>
+              <div class="offcanvas-body ">
+                <div>Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists, etc.
+                </div>
+                <div class="dropdown mt-3">
+                  <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                   Dropdown button
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#button">Action</a></li>
+                    <li><a class="dropdown-item" href="#button">Another action</a></li>
+                    <li><a class="dropdown-item" href="#button">Something else here</a></li>
+                  </ul>
+              </div>
+            </div>
+        </div>
+
+    </div>
+  </section>
+  <!-- Buttons Section -ends -->
+
+
+  <!-- modal start -->
+  <section id="modal" class="container-fluid">
+    <h1 class="display-3 text-center col-12 py-2 tile text-center my-5 mt-5 " style="font-size: 50px; border:none;"> Modal, Toast & Popover </h1>
+    <div class="container text-center">
+      <div class="row d-flex justify-content-center align-items-center">
+        <!-- 1 modal -->
+        <div class="col-2 justify-content-center m-5 d-flex align-items-center text-dark gap-1 " style="border: none;">
+          <button type="button" class="btn btn-outline-warning" data-bs-toggle="modal" data-bs-target="#exampleModal1">
+            Modal Examples
+          </button>
+          <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModal1Label" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content bg-warning">
+                <div class="modal-header bg-warning">
+                  <h5 class="modal-title">WARNING!!!</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body bg-warning">
+                  <p>You will likely advance from this website, and there is a possibility of suspicious ads, please consider it again.</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Im Sorry</button>
+                  <button  type="button" class="btn btn-dark">
+                    <a href="https://rawkuma.com" target="_blank" style="color: white; ">Proceed Anyway</a>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- 2 modal-->
+        <div class="col-2 justify-content-center m-5 d-flex align-items-center text-dark gap-1" style="border: none;">
+          <button type="button" class="btn btn-success" data-bs-toggle="popover" data-bs-content="Popover body content is set in this attribute." data-bs-original-title="Popover title">popover
+          </button>
+        </div>
+
+        <div class="col-2 justify-content-center m-5 d-flex align-items-center text-dark gap-1" style="border: none;">
+          <button type="button" class="btn btn-primary" id="liveToastBtn"><i class="fa-solid fa-bread-slice"></i> Toast <i class="fa-solid fa-bread-slice"></i> </button>
+
+          <div class="toast-container position-fixed bottom-0 end-0 p-3">
+            <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+              <div class="toast-header">
+                <img src="./assets/image/toast.gif" style="width:20px; height:20px;" class="rounded me-2" alt="...">
+                <strong class="me-auto">Kusangers </strong>
+                <small>Now</small>
+                <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+              </div>
+              <div class="toast-body">
+                Visit My  <a href="https://rawkuma.com" class=" text-decoration-none" target="_blank">site</a>!.
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- 3 modal -->
+        <div class="col-2 justify-content-center m-5 d-flex align-items-center text-dark gap-1" style="border: none;">
+          <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+            Tooltips n Popovers
+          </button>
+          <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModal2Label" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content bg-dark text-light">
+                <div class="modal-header">
+                  <h5 class="modal-title">Modal title</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <h2 class="fs-5">Popover in a modal</h2>
+                  <p>This 
+                    <a href="#modal" role="button" class="btn btn-secondary" data-bs-toggle="popover" data-bs-content="Popover body content is set in this attribute." data-bs-original-title="Popover title">button</a>
+                    triggers a popover on click.
+                  </p>
+                  <hr>
+                  <h2 class="fs-5">Tooltips in a modal</h2>
+                  <p><a href="#modal" data-bs-toggle="tooltip" title="Tooltip">This link</a> and <a href="#modal" data-bs-toggle="tooltip" title="Tooltip">that link</a> have tooltips on hover.</p>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+   <!-- modal -ends -->
+
+   <!-- color start -->
+  <section id="color" class="container-fluid">
+      <h1 class="display-3 text-center col-12 py-2 tile text-center my-5 mt-5 " style="font-size: 50px; border:none;"> Color Scheme </h1>
+      <div class="container text-center">
+        <div class="row text-center">
+         <!-- Background Colors -->
+      <div class="col-md-6 col-lg-3 mb-4">
+        <div class="p-3 mb-2 bg-primary text-white">
+          .bg-primary
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3 mb-4">
+        <div class="p-3 mb-2 bg-primary-subtle text-primary-emphasis">
+          .bg-primary-subtle
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3 mb-4">
+        <div class="p-3 mb-2 bg-secondary text-white">
+          .bg-secondary
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3 mb-4">
+        <div class="p-3 mb-2 bg-secondary-subtle text-secondary-emphasis">
+          .bg-secondary-subtle
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3 mb-4">
+        <div class="p-3 mb-2 bg-success text-white">
+          .bg-success
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3 mb-4">
+        <div class="p-3 mb-2 bg-success-subtle text-success-emphasis">
+          .bg-success-subtle
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3 mb-4">
+        <div class="p-3 mb-2 bg-danger text-white">
+          .bg-danger
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3 mb-4">
+        <div class="p-3 mb-2 bg-danger-subtle text-danger-emphasis">
+          .bg-danger-subtle
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3 mb-4">
+        <div class="p-3 mb-2 bg-warning text-dark">
+          .bg-warning
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3 mb-4">
+        <div class="p-3 mb-2 bg-warning-subtle text-warning-emphasis">
+          .bg-warning-subtle
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3 mb-4">
+        <div class="p-3 mb-2 bg-info text-dark">
+          .bg-info
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3 mb-4">
+        <div class="p-3 mb-2 bg-info-subtle text-info-emphasis">
+          .bg-info-subtle
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3 mb-4">
+        <div class="p-3 mb-2 bg-light text-dark">
+          .bg-light
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3 mb-4">
+        <div class="p-3 mb-2 bg-light-subtle text-light-emphasis">
+          .bg-light-subtle
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3 mb-4">
+        <div class="p-3 mb-2 bg-dark text-white">
+          .bg-dark
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3 mb-4">
+        <div class="p-3 mb-2 bg-dark-subtle text-dark-emphasis">
+          .bg-dark-subtle
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3 mb-4">
+        <div class="p-3 mb-2 bg-body-secondary text-body">
+          .bg-body-secondary
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3 mb-4">
+        <div class="p-3 mb-2 bg-body-tertiary text-body">
+          .bg-body-tertiary
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3 mb-4">
+        <div class="p-3 mb-2 bg-body text-body">
+          .bg-body
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3 mb-4">
+        <div class="p-3 mb-2 bg-black text-white">
+          .bg-black
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3 mb-4">
+        <div class="p-3 mb-2 bg-white text-dark">
+          .bg-white
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3 mb-4">
+        <div class="p-3 mb-2 bg-transparent text-body">
+          .bg-transparent
+        </div>
+      </div>
+
+      <!-- Opacity Options -->
+      <div class="col-md-6 col-lg-3 mb-4">
+        <div class="p-3 mb-2 bg-primary opacity-25 text-white">
+          .opacity-25
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3 mb-4">
+        <div class="p-3 mb-2 bg-primary opacity-50 text-white">
+          .opacity-50
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3 mb-4">
+        <div class="p-3 mb-2 bg-primary opacity-75 text-white">
+          .opacity-75
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3 mb-4">
+        <div class="p-3 mb-2 bg-primary opacity-100 text-white">
+          .opacity-100
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3 mb-4">
+        <div class="p-3 mb-2 bg-success opacity-25 text-white">
+          .opacity-25
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3 mb-4">
+        <div class="p-3 mb-2 bg-success opacity-50 text-white">
+          .opacity-50
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3 mb-4">
+        <div class="p-3 mb-2 bg-success opacity-75 text-white">
+          .opacity-75
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3 mb-4">
+        <div class="p-3 mb-2 bg-success opacity-100 text-white">
+          .opacity-100
+        </div>
+      </div>
+    </div>
+  </div>
+  </section>
+  <!-- colors -ends -->
+
+  <!-- spy start -->
+  <section id="spy" class="container-fluid">
+    <h1 class="display-3 col-12 py-2 tile text-center my-5 mt-5">Colorspy</h1>
+    <div class="container">
+      <div class="row">
+        <div class="col-4" style="max-height: 350px; border: 2px solid white; overflow-y: auto; background-color: #000;">
+          <nav id="navbar-example3" class="h-100 flex-column align-items-stretch">
+            <nav class="nav nav-pills flex-column">
+              <a class="nav-link" href="#item-1">Item 1</a>
+              <nav class="nav nav-pills flex-column ms-3">
+                <a class="nav-link" href="#item-1-1">Item 1-1</a>
+                <a class="nav-link" href="#item-1-2">Item 1-2</a>
+              </nav>
+              <a class="nav-link" href="#item-2">Item 2</a>
+              <a class="nav-link" href="#item-3">Item 3</a>
+              <nav class="nav nav-pills flex-column ms-3">
+                <a class="nav-link" href="#item-3-1">Item 3-1</a>
+                <a class="nav-link" href="#item-3-2">Item 3-2</a>
+              </nav>
+            </nav>
+          </nav>
+        </div>
+        <div class="col-8" style="max-height: 350px; border: 2px solid white; overflow-y: auto; background-color: #000;">
+          <div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-smooth-scroll="true" class="scrollspy-example-2 p-3" tabindex="0">
+            <div id="item-1">
+              <h4>Item 1</h4>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae odit hic repellendus tempora fugiat eos molestias explicabo vel! Aperiam quibusdam cupiditate repellat amet reiciendis nihil assumenda ipsum tempora temporibus sit?</p>
+            </div>
+            <div id="item-1-1">
+              <h5>Item 1-1</h5>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae odit hic repellendus tempora fugiat eos molestias explicabo vel! Aperiam quibusdam cupiditate repellat amet reiciendis nihil assumenda ipsum tempora temporibus sit?</p>
+            </div>
+            <div id="item-1-2">
+              <h5>Item 1-2</h5>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae odit hic repellendus tempora fugiat eos molestias explicabo vel! Aperiam quibusdam cupiditate repellat amet reiciendis nihil assumenda ipsum tempora temporibus sit?</p>
+            </div>
+            <div id="item-2">
+              <h4>Item 2</h4>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae odit hic repellendus tempora fugiat eos molestias explicabo vel! Aperiam quibusdam cupiditate repellat amet reiciendis nihil assumenda ipsum tempora temporibus sit?</p>
+            </div>
+            <div id="item-3">
+              <h4>Item 3</h4>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae odit hic repellendus tempora fugiat eos molestias explicabo vel! Aperiam quibusdam cupiditate repellat amet reiciendis nihil assumenda ipsum tempora temporibus sit?</p>
+            </div>
+            <div id="item-3-1">
+              <h5>Item 3-1</h5>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae odit hic repellendus tempora fugiat eos molestias explicabo vel! Aperiam quibusdam cupiditate repellat amet reiciendis nihil assumenda ipsum tempora temporibus sit?</p>
+            </div>
+            <div id="item-3-2">
+              <h5>Item 3-2</h5>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae odit hic repellendus tempora fugiat eos molestias explicabo vel! Aperiam quibusdam cupiditate repellat amet reiciendis nihil assumenda ipsum tempora temporibus sit?</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </section>
+  <!-- spy -end -->
+   
+  <!-- form starts -->
+  <section class="container" id="form">
+    <p><br></p> <p><br></p>
+    <div class="text-center">
+      <h1 class="display-3 mb-5" style="font-size: 50px; border:none;">Form</h1>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="form-container border p-3 rounded " data-bs-theme="dark">
+            <form>
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlSelect1" class="form-label">Example select</label>
+                <select class="form-select" id="exampleFormControlSelect1">
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5</option>
+                </select>
+              </div>
+              <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="form-container border p-3 rounded " data-bs-theme="dark">
+            <form>
+              <div class="row mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Sign Up </label>
+                <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+                <div class="col-sm-10">
+                  <input type="email" class="form-control" id="inputEmail3">
+                </div>
+              </div>
+              <div class="row mb-3">
+                <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
+                <div class="col-sm-10">
+                  <input type="password" class="form-control" id="inputPassword3">
+                </div>
+              </div>
+              <fieldset class="row mb-3">
+                <legend class="col-form-label col-sm-2 pt-0">Radios</legend>
+                <div class="col-sm-10">
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                    <label class="form-check-label" for="gridRadios1">
+                      First radio
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                    <label class="form-check-label" for="gridRadios2">
+                      Second radio
+                    </label>
+                  </div>
+                  <div class="form-check disabled">
+                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3" disabled="">
+                    <label class="form-check-label" for="gridRadios3">
+                    Third disabled radio
+                    </label>
+                    </div>
+                </div>
+              </fieldset>
+              <div class="row mb-3">
+                <div class="col-sm-10 offset-sm-2">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gridCheck1">
+                    <label class="form-check-label" for="gridCheck1">
+                      Example checkbox
+                    </label>
+                  </div>
+                </div>
+              </div>
+              
+              <button type="submit" class="btn btn-primary">Sign in</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="row custom-row">
+        <div class="col-md-6">
+          <div class="form-container border p-3 rounded " data-bs-theme="dark">
+            <form>
+              <div class="mb-3">
+                <label for="validationCustom01" class="form-label">First name</label>
+                <input type="text" class="form-control" id="validationCustom01" required>
+                <div class="valid-feedback">
+                  Looks good!
+                </div>
+              </div>
+              <div class="mb-3">
+                <label for="validationCustom02" class="form-label">Last name</label>
+                <input type="text" class="form-control" id="validationCustom02" required>
+                <div class="valid-feedback">
+                  Looks good!
+                </div>
+              </div>
+              <div class="mb-3">
+                <label for="validationCustomUsername" class="form-label">Username</label>
+                <div class="input-group">
+                  <span class="input-group-text" id="inputGroupPrepend">@</span>
+                  <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+                  <div class="invalid-feedback">
+                    Please choose a username.
+                  </div>
+                </div>
+              </div>
+              <div class="mb-3 form-check">
+                <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                <label class="form-check-label" for="invalidCheck">
+                  Agree to terms and conditions
+                </label>
+                <div class="invalid-feedback">
+                  You must agree before submitting.
+                </div>
+              </div>
+              <button class="btn btn-primary" type="submit">Submit form</button>
+            </form>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="form-container border p-3 rounded " data-bs-theme="dark"> 
+            <form>
+              <div class="mb-3">
+                <label for="formGroupExampleInput" class="form-label">Example label</label>
+                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input">
+              </div>
+              <div class="mb-3">
+                <label for="formGroupExampleInput2" class="form-label">Another label</label>
+                <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input">
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlSelect2" class="form-label">Example multiple select</label>
+                <select multiple class="form-select" id="exampleFormControlSelect2">
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5</option>
+                </select>
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="row full-width-row">
+        <div class="col">
+          <div class="form-container border p-3 rounded form-container-lg" data-bs-theme="dark">
+            <form>
+              <div class="mb-3 " >
+                <label for="formFile" class="form-label">Default file input example</label>
+                <input class="form-control " type="file" id="formFile">
+              </div>
+              <div class="mb-3">
+                <label for="formFileMultiple" class="form-label">Multiple files input example</label>
+                <input class="form-control" type="file" id="formFileMultiple" multiple>
+              </div>
+              <div class="mb-3">
+                <label for="formFileDisabled" class="form-label">Disabled file input example</label>
+                <input class="form-control" type="file" id="formFileDisabled" disabled>
+              </div>
+              <div class="mb-3">
+                <label for="formFileSm" class="form-label">Small file input example</label>
+                <input class="form-control form-control-sm" id="formFileSm" type="file">
+              </div>
+              <div>
+                <label for="formFileLg" class="form-label">Large file input example</label>
+                <input class="form-control form-control-lg" id="formFileLg" type="file">
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- form -ends -->
+
+  <!-- iframe start -->
+  <section class="container" id="iframe">
+    <div class="mt-5 mb-5 text-center">
+      <h1 class="display-3 mb-5" style="font-size: 50px; border:none;">Iframe</h1>
+      <div class="col d-flex justify-content-center">
+        <iframe width="720" height="405" src="https://www.youtube.com/embed/ET5X4voZsag" title="キャットラビング /白上フブキ(cover)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+    </div>
+  </section>
+  <!-- iframe ends -->
+
+   <!-- iframe start -->
+   <section class="container" id="spinner">
+    <p><br></p> <p><br></p>
+    <div class="text-center">
+      <h1 class="display-3 mb-5" style="font-size: 50px; border:none;">Form</h1>
+      <div class="row py-5 my-5 pt-5">
+          <div class="col-6 py-5 " >
+            <button class="  btn btn-outline-primary px-5 mx-5">
+                <div class="spinner-border text-primary custom"></div>
+                <div class="spinner-border text-secondary custom"></div>
+                <div class="spinner-border text-success custom"></div>
+                <div class="spinner-border text-danger custom"></div>
+                <div class="spinner-border text-warning custom"></div>
+                <div class="spinner-border text-info custom"></div>
+                <div class="spinner-border text-light custom"></div>
+                <div class="spinner-border text-dark custom"></div>
+            </button> 
+          </div>
+        <div class="col-6  py-5">
+          <button class="  btn btn-outline-primary px-5 mx-5 ">
+            <span class="spinner-grow text-muted custom"></span>
+            <span class="spinner-grow text-light custom"></span>
+            <span class="spinner-grow text-dark custom"></span>
+            <span class="spinner-grow text-danger custom"></span>
+            <span class="spinner-grow text-secondary custom"></span>
+            <span class="spinner-grow text-warning custom"></span>
+            <span class="spinner-grow text-info custom"></span>
+            <span class="spinner-grow text-success custom"></span>
+          </button>
+        </div>
+        <div class="col-1 "></div>
+        <div class="col-10 justify-content-center" style="border: 1px solid rgb(205, 248, 255);">
+          <div class="d-flex align-items-center justify-content-center text-light">
+            <strong>This May Take a While . . . </strong>
+            <div class="spinner-border ms-auto" role="status" aria-hidden="true"></div>
+          </div>
+        </div>
+        <div class="col-1 justify-content-center"></div>
+      </div>
+    </div>
+   </section>
+
+
+<script src="./assets/js/scripts.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+
+
+</body>
+</html>
